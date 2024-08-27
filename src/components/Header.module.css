@@ -1,0 +1,30 @@
+.header {
+  background-color: #720455;
+  padding: 1.5rem;
+  border-radius: 3rem;
+  -webkit-border-radius: 3rem;
+  -moz-border-radius: 3rem;
+  -ms-border-radius: 3rem;
+  -o-border-radius: 3rem;
+}
+.header h2 {
+  text-align: center;
+  color: #f4f4f4;
+}
+
+@media screen and (max-width: 886px) {
+  .header h2 {
+    font-size: 2rem !important;
+  }
+}
+
+@media screen and (max-width: 685px) {
+  .header h2 {
+    font-size: 1.5rem !important;
+  }
+}
+@media screen and (max-width: 567px) {
+  .header h2 {
+    font-size: 1.2rem !important;
+  }
+}

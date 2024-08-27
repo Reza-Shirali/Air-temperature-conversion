@@ -1,0 +1,124 @@
+.main {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: start;
+  margin-top: 10rem;
+}
+.main .main__top {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+  gap: 2rem;
+}
+.main .main__top label {
+  font-size: 3rem;
+  color: #f4f4f4;
+  font-family: "pop-sb";
+}
+.main .main__top input {
+  outline: none;
+  padding: 2rem;
+  width: 70%;
+  background-color: transparent;
+  border: 0.3rem solid #910a67;
+  border-radius: 1.5rem;
+  -webkit-border-radius: 1.5rem;
+  -moz-border-radius: 1.5rem;
+  -ms-border-radius: 1.5rem;
+  -o-border-radius: 1.5rem;
+  color: #f4f4f4;
+  font-family: "pop-sb";
+  font-size: 1.5rem;
+}
+
+.main .main__top button {
+  margin-top: 2rem;
+  padding: 2rem;
+  outline: none;
+  border: 0.3rem solid #910a67;
+  color: #f4f4f4;
+  background-color: transparent;
+  font-family: "pop-me";
+  font-size: 1.8rem;
+  cursor: pointer;
+  user-select: none;
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+  transition: all 250ms ease-in 20ms;
+  -webkit-transition: all 250ms ease-in 20ms;
+  -moz-transition: all 250ms ease-in 20ms;
+  -ms-transition: all 250ms ease-in 20ms;
+  -o-transition: all 250ms ease-in 20ms;
+}
+.main .main__top button:hover {
+  background-color: #910a67;
+}
+
+.main__bottom {
+  margin-top: 5rem;
+  background-color: #910a67;
+  border-radius: 3rem;
+  -webkit-border-radius: 3rem;
+  -moz-border-radius: 3rem;
+  -ms-border-radius: 3rem;
+  -o-border-radius: 3rem;
+  width: 70%;
+  text-align: center;
+  padding: 1.5rem;
+  margin-top: 8rem;
+}
+
+.main__bottom span {
+  font-family: "pop-bo";
+  font-size: 2rem;
+  color: #f4f4f4;
+  user-select: none;
+}
+
+@media screen and (max-width: 886px) {
+  .main__top label {
+    font-size: 2.5rem !important;
+  }
+  .header h2 {
+    font-size: 1.5rem !important;
+  }
+}
+@media screen and (max-width: 755px) {
+  .main__top label {
+    font-size: 2rem !important;
+  }
+}
+@media screen and (max-width: 638px) {
+  .main__top label {
+    font-size: 1.6rem !important;
+    width: 30rem;
+  }
+  .main__bottom{
+    width: 100%;
+  }
+}
+@media screen and (max-width: 545px) {
+  .main__top {
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  .main__top label {
+    text-align: center;
+  }
+  .main {
+    justify-content: start;
+    margin-top: 4rem;
+  }
+  .main input::placeholder {
+    font-size: 1rem;
+  }
+  .main__bottom{
+    margin-top: 5rem;
+  }
+}

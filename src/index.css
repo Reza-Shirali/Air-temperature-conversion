@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "pop";
+  src: url("./assets/fonts/Poppins-Regular.ttf");
+}
+@font-face {
+  font-family: "pop-me";
+  src: url("./assets/fonts/Poppins-Medium.ttf");
+}
+@font-face {
+  font-family: "pop-sb";
+  src: url("./assets/fonts/Poppins-SemiBold.ttf");
+}
+@font-face {
+  font-family: "pop-bo";
+  src: url("./assets/fonts/Poppins-Bold.ttf");
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "pop";
+  font-size: 1.6rem;
+  background-color: #252525;
+  min-height: 100vh;
+  padding: 4rem;
+  width: calc(100% - 10rem);
+  margin: 0 auto;
+}
